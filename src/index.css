@@ -1,0 +1,19 @@
+:root {
+  --color-rosa: #E998B2;
+  --color-verde: #96D6BE;
+  --color-rosa-claro: #F4D5D7;
+  --color-verde-claro: #AEDFC8;
+  --color-fondo: #FFFDFC;
+  --color-texto: #51464B;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+}
